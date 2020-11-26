@@ -10,13 +10,13 @@ opposite (Fereignheit to Celsius)
 
 
 
-//This function converts a given temperature from degrees Celcius to Fahrenheit 
+
 function celciusToFahrenheit(tempInCelcius) {
     return (tempInCelcius * (9 / 5) + 32)
 }
 
 
-//This function converts a given temperature from Fahrenheit to degrees Celcius
+
 function fahrenheitToCelcius(tempInFahrenheit) {
     return ((tempInFahrenheit - 32) * (5 / 9))
 }

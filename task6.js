@@ -16,7 +16,7 @@ function whichIsGreater(n1, n2) {
     else { return n2 }
 }
 
-//This function takes 3 numbers and returns the bigest one out of the 3
+
 
 function task6(number1, number2, number3) {
     if (whichIsGreater(number1, number2) > number3) {

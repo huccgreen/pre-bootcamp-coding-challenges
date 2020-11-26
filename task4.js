@@ -8,11 +8,11 @@ contains a 3 then return true. Otherwise return false
 
 
 
-//This is a function that will check if the sum of 2 numbers contains a 3
+
 
 function sumContains3(n1, n2) {
     var sum = n1 + n2;
-    if (sum.toString().includes(3)) {    //convert the number to a string first so that you can use the string operation .includes() on it
+    if (sum.toString().includes(3)) {
         return true
     }
     else {
